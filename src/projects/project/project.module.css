@@ -1,0 +1,56 @@
+.project {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: lemonchiffon;
+
+
+}
+.containerForImage {
+    position: relative;
+}
+.containerForImage .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #70ec57;
+    /*font-weight: bold;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;*/
+}
+
+.btn {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /*border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;*/
+}
+
+/* On mouse-over */
+.btn:hover {
+    background: #bbf3bb;
+}
+
+
+.projectTitle {
+
+}
+.projectImage {
+    height: 200px;
+    width: 100%;
+}
+.description {
+
+}

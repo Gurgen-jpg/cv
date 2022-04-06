@@ -1,0 +1,28 @@
+.contactsBlock {
+    background-color: cornflowerblue;
+    height: 70vh;
+    flex-wrap: wrap;
+}
+.contactsContainer {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.title {
+
+}
+.btn {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #70ec57;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #bbf3bb;
+}

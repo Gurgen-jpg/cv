@@ -1,0 +1,24 @@
+.footerBlock {
+    background-color: lightslategrey;
+    height: 20vh;
+    flex-wrap: wrap;
+}
+.footerContainer {
+    flex-direction: column;
+
+
+}
+.title {
+
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.icon {
+     width: 20px;
+     height: 20px;
+ }

@@ -1,0 +1,15 @@
+.projectsBlock {
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.projectsContainer {
+
+}
+
+.title {
+    background-color: lightgray;
+}
