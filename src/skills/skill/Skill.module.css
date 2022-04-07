@@ -6,11 +6,11 @@
     align-items: center;
     text-align: center;
     background-color: lemonchiffon;
-    flex-wrap: wrap;
     padding: 10px;
 }
 
 .icon {
+    object-fit: cover;
     height: 80px;
     width: 80px;
 

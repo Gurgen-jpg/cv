@@ -1,6 +1,7 @@
 import React from 'react';
+import s from './App.module.css'
 
-import './App.css';
+
 import {Header} from "./header/Header";
 import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
@@ -11,7 +12,7 @@ import {Footer} from "./footer/Footer";
 
 function App() {
     return (
-        <div>
+        <div className={s.app}>
             <Header/>
             <Main/>
             <Skills/>
